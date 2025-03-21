@@ -1,3 +1,2 @@
-texto = "CTG" "GTC" "ATG"
-lista = texto.split(" ")
-print(lista)
+numero_str = input("dame 3 numeros separados por un espacio")
+print(numero_str)
