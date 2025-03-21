@@ -1,3 +1,3 @@
 texto = "CTG" "GTC" "ATG"
-lista = texto.split()
+lista = texto.split(" ")
 print(lista)
