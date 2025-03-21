@@ -1,3 +1,5 @@
 with open("genes.gff") as file:
     for linea in file: 
-        print(linea)
+        # quitar los saltos de linea
+        columna = linea.split().strip("\t")
+        print(columna)
