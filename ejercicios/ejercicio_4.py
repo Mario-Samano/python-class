@@ -6,4 +6,5 @@ with open (inputfile, "r") as infile, open(outputfile) as outfile:
         #----------------------------------- cortar los adaptadores 
         secuencia_limpia = linea.strip()[14:]
         # ---------------------------------- mandar a un archivo de salida 
-        outfile.write(f"{secuencia_limpia}\n")
+        outputfile.write(f"{secuencia_limpia}\n")
+    
